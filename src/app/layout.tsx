@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: seo.home.title,
     description: seo.home.description,
-    url: "https://dabaz.me",
+    url: "https://python.dabaz.me",
     siteName: seo.home.siteName,
     images: [
       {

@@ -7,7 +7,7 @@ export const seo = {
         ? "https://python.dabaz.me"
         : "http://localhost:3000"
     ),
-    imageSrc: "https://dabaz.me/images/home/opengraph-image.jpg",
-    imageAlt: "Logo of 'DabAZ' featuring a stylized white semi-circular arrow pointing up and to the right, set against a dark navy blue background. The word 'DabAZ' is displayed to the right of the icon in large white capital letters, with a modern sans-serif typeface.",
+    imageSrc: "https://python.dabaz.me/images/home/opengraph-image.jpg",
+    imageAlt: "DabPython logo featuring a stylized 'dp' symbol on the left and the text 'DabPython' on the right, set against a gradient blue background.",
     siteName: "DabPython",
   }} as const;

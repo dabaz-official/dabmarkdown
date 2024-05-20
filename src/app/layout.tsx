@@ -7,6 +7,7 @@ import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
 import '@/styles/tailwind.css'
+import '@/styles/basic.css'
 import { seo } from '@/config/seo'
 
 const inter = Inter({

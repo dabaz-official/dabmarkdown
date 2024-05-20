@@ -11,7 +11,7 @@ export function TableOfContents({
 }: {
   tableOfContents: Array<Section>
 }) {
-  let [currentSection, setCurrentSection] = useState(tableOfContents[0]?.id)
+  let [currentSection, setCurrentSection] = useState<string | null>(tableOfContents[0]?.id || null)
 
   let getHeadings = useCallback((tableOfContents: Array<Section>) => {
     return tableOfContents
@@ -34,9 +34,9 @@ export function TableOfContents({
     let headings = getHeadings(tableOfContents)
     function onScroll() {
       let top = window.scrollY
-      let current = headings[0].id
+      let current = headings[0]?.id || null
       for (let heading of headings) {
-        if (top >= heading.top - 10) {
+        if (heading && top >= heading.top - 10) {
           current = heading.id
         } else {
           break
@@ -70,7 +70,7 @@ export function TableOfContents({
               id="on-this-page-title"
               className="font-display text-sm font-medium text-slate-900 dark:text-white"
             >
-              On this page
+              本篇内容
             </h2>
             <ol role="list" className="mt-4 space-y-3 text-sm">
               {tableOfContents.map((section) => (
@@ -116,4 +116,4 @@ export function TableOfContents({
       </nav>
     </div>
   )
-}
+};

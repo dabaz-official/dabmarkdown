@@ -1,8 +1,9 @@
 ---
-title: Getting started
+title: 开始
 ---
 
-Learn how to get CacheAdvance set up in your project in under thirty minutes or it's free. {% .lead %}
+Python是一种高层次、解释型、面向对象的编程语言，以其简单易学、功能强大和广泛的应用而闻名。在当今的就业市场和科技领域，Python已经成为最受欢迎的编程语言之一。它在数据科学、人工智能、web开发、自动化测试、网络爬虫、金融科技等多个领域都有广泛应用。Python不仅能提高开发效率，还能大大降低开发的复杂性，因而备受科技公司和初创企业的青睐。掌握Python技能，能够为职业发展提供更多机会和更高的竞争力。
+{% .lead %}
 
 {% quick-links %}
 

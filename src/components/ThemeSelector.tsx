@@ -4,9 +4,9 @@ import { Listbox } from '@headlessui/react'
 import clsx from 'clsx'
 
 const themes = [
-  { name: 'Light', value: 'light', icon: LightIcon },
-  { name: 'Dark', value: 'dark', icon: DarkIcon },
-  { name: 'System', value: 'system', icon: SystemIcon },
+  { name: '明亮', value: 'light', icon: LightIcon },
+  { name: '黑暗', value: 'dark', icon: DarkIcon },
+  { name: '跟随系统', value: 'system', icon: SystemIcon },
 ]
 
 function LightIcon(props: React.ComponentPropsWithoutRef<'svg'>) {

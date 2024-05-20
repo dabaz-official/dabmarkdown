@@ -9,17 +9,23 @@ import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}`
+const code = `import turtle
+
+turtle.speed(1)
+colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
+turtle.bgcolor('black')
+
+for x in range(360):
+    turtle.pencolor(colors[x % 6])
+    turtle.width(x / 100 + 1)
+    turtle.forward(x)
+    turtle.left(59)
+
+turtle.done()`
 
 const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
-  { name: 'package.json', isActive: false },
+  { name: 'main.py', isActive: true },
+  { name: 'README.md', isActive: false },
 ]
 
 function TrafficLightsIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -49,17 +55,13 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Never miss the cache again.
+                从现在开始，轻松掌握Python编程
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Cache every single thing your app could ever do ahead of time,
-                so your code never even has to run at all.
+                DabPython提供全面的Python入门指南，帮助您从零开始掌握这门强大的编程语言，无论您是初学者还是希望提升技能的开发者，这里都有适合您的资源。
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
-                <Button href="/" variant="secondary">
-                  View on GitHub
-                </Button>
+                <Button href="/">开始学习</Button>
               </div>
             </div>
           </div>

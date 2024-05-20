@@ -55,13 +55,16 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                从现在开始，轻松掌握Python编程
+                轻松掌握Python编程
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
                 DabPython提供全面的Python入门指南，帮助您从零开始掌握这门强大的编程语言，无论您是初学者还是希望提升技能的开发者，这里都有适合您的资源。
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">开始学习</Button>
+                <Button href="https://github.com/dabaz-official/dabpython" variant="secondary">
+                  在GitHub上查看
+                </Button>
               </div>
             </div>
           </div>

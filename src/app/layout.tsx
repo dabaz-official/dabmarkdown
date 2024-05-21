@@ -11,11 +11,11 @@ import { inter, lexend } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - DabPython',
+    template: '%s - DabMarkdown',
     default: seo.home.title,
   },
   description: seo.home.description,
-  keywords: ["Python", "programming language", "编程语言", "programming language", "学习", "learning", "教程", "tutorial", "入门指南", "beginner's guide", "编程初学者", "programming beginners", "代码", "code", "算法", "algorithm", "数据结构", "data structures", "程序设计", "program design", "自学编程", "self-learning programming", "编程资源", "programming resources", "网络课程", "online courses", "编程实践", "programming practice", "编程项目", "programming projects", "编程技能", "programming skills"],
+  keywords: ["Markdown", "Markdown language", "Markdown语言", "学习", "learning", "教程", "tutorial", "入门指南", "beginner's guide", "文档编写", "document writing", "格式化文本", "formatted text", "自学Markdown", "self-learning Markdown", "文档撰写技巧", "document writing skills", "文档示例", "document examples", "Markdown语法", "Markdown syntax", "Markdown教程", "Markdown tutorial", "Markdown实例", "Markdown examples", "文本编辑", "text editing", "在线课程", "online courses", "文档格式", "document format", "文档资源", "document resources", "Markdown实践", "Markdown practice", "Markdown项目", "Markdown projects", "文档设计", "document design", "文档写作", "document writing"],
   icons: {
     icon: "/favicon/favicon.ico",
     shortcut: "/favicon/favicon.ico",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: seo.home.title,
     description: seo.home.description,
-    url: "https://python.dabaz.me",
+    url: "https://markdown.dabaz.me",
     siteName: seo.home.siteName,
     images: [
       {

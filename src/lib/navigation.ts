@@ -12,8 +12,8 @@ export const navigation = [
     links: [
       { title: '变量与数据类型', href: '/docs/variables-and-data-types' },
       {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
+        title: '运算符',
+        href: '/docs/operators',
       },
       { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
       {

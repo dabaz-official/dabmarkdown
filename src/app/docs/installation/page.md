@@ -2,7 +2,7 @@
 title: 安装与环境配置
 nextjs:
   metadata:
-    title: 安装与环境配置 - DabPython
+    title: 安装与环境配置
     description: 在开始编写Python代码之前，第一步是确保你的计算机上安装了Python，并配置好适当的开发环境。本篇将指导你如何在不同操作系统上安装Python，并介绍常用的集成开发环境（IDE），帮助你为Python编程做好准备。
 ---
 

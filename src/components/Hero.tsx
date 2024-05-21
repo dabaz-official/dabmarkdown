@@ -8,23 +8,18 @@ import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
-const codeLanguage = 'javascript'
-const code = `import turtle
+const codeLanguage = 'markdown'
+const code = `# DabMarkdown
 
-turtle.speed(1)
-colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
-turtle.bgcolor('black')
+Welcome to the **DabMarkdown**. Here you will:
 
-for x in range(360):
-    turtle.pencolor(colors[x % 6])
-    turtle.width(x / 100 + 1)
-    turtle.forward(x)
-    turtle.left(59)
-
-turtle.done()`
+- Learn how to create headings, paragraphs, and lists.
+- Understand how to add emphasis, links, images, and code blocks.
+- Discover how to create tables and quotes.
+- So much more...`
 
 const tabs = [
-  { name: 'main.py', isActive: true },
+  { name: 'main.md', isActive: true },
   { name: 'README.md', isActive: false },
 ]
 
@@ -55,14 +50,14 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                轻松掌握Python编程
+                Markdown语言学习平台
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                DabPython提供全面的Python入门指南，帮助您从零开始掌握这门强大的编程语言，无论您是初学者还是希望提升技能的开发者，这里都有适合您的资源。
+                DabMarkdown 是一个专注于Markdown语言教学的网站，通过详细的教程和示例，帮助您快速掌握Markdown语法，提升您的文档编写效率和质量。
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/docs/what-is-python">开始学习</Button>
-                <Button href="https://github.com/dabaz-official/dabpython" variant="secondary">
+                <Button href="/docs/what-is-markdown">开始学习</Button>
+                <Button href="https://github.com/dabaz-official/dabmarkdown" variant="secondary">
                   在GitHub上查看
                 </Button>
               </div>

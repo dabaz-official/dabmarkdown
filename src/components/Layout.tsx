@@ -47,10 +47,10 @@ function Header() {
         <MobileNavigation />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" aria-label="Home page" className="flex items-center gap-2">
-          <Logo className="hidden h-9 w-auto fill-sky-500 dark:fill-sky-400 lg:block" />
+        <Link href="/" aria-label="Home page" className="flex items-center gap-2 text-center">
+          <Logo className="hidden h-7 w-auto fill-sky-500 dark:fill-sky-400 lg:block" />
           <p className="hidden lg:block text-xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">
-            DabPython
+            DabMarkdown
           </p>
         </Link>
       </div>

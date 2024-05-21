@@ -61,7 +61,7 @@ export function Hero() {
                 DabPython提供全面的Python入门指南，帮助您从零开始掌握这门强大的编程语言，无论您是初学者还是希望提升技能的开发者，这里都有适合您的资源。
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">开始学习</Button>
+                <Button href="/docs/what-is-python">开始学习</Button>
                 <Button href="https://github.com/dabaz-official/dabpython" variant="secondary">
                   在GitHub上查看
                 </Button>

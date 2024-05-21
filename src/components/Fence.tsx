@@ -7,6 +7,7 @@ import { Highlight, themes, Prism } from 'prism-react-renderer'
 require("prismjs/components/prism-python")
 require("prismjs/components/prism-bash")
 require("prismjs/components/prism-powershell")
+require("prismjs/components/prism-markdown")
 
 export function Fence({
   children,

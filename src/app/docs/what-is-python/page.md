@@ -1,8 +1,8 @@
 ---
-title: 安装与环境配置
+title: Python是什么？
 nextjs:
   metadata:
-    title: 安装与环境配置 - DabPython
+    title: Python是什么？ - DabPython
     description: Python是一种高层次、解释型、面向对象的编程语言，由Guido van Rossum于20世纪90年代初在荷兰开发。它因其简单易学、功能强大和广泛应用而备受欢迎。
 ---
 

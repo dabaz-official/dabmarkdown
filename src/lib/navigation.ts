@@ -1,9 +1,10 @@
 export const navigation = [
   {
-    title: 'Introduction',
+    title: '快速上手',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: '开端', href: '/' },
+      { title: 'Python是什么？', href: '/docs/what-is-python' },
+      { title: '安装与环境配置', href: '/docs/installation' },
     ],
   },
   {

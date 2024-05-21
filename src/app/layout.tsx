@@ -1,6 +1,4 @@
 import { type Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
 import clsx from 'clsx'
 
 import { Providers } from '@/app/providers'
@@ -8,19 +6,8 @@ import { Layout } from '@/components/Layout'
 
 import '@/styles/tailwind.css'
 import '@/styles/basic.css'
-import { seo } from '@/config/seo'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
-
-const lexend = localFont({
-  src: '../fonts/lexend.woff2',
-  display: 'swap',
-  variable: '--font-lexend',
-})
+import { seo } from '@/lib/seo'
+import { inter, lexend } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
   title: {

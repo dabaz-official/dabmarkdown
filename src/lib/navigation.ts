@@ -12,7 +12,7 @@ export const navigation = [
     links: [
       { title: '变量与数据类型', href: '/docs/variables-and-data-types' },
       { title: '运算符', href: '/docs/operators' },
-      { title: '字符串（str）操作', href: '/docs/string-operations' },
+      { title: '字符串（str）', href: '/docs/str' },
       { title: '列表（list）与元组（tuple）', href: '/docs/lists-and-tuples' },
       { title: '持续更新中...', href: '#' },
     ],

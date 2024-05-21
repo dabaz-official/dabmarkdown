@@ -1,8 +1,8 @@
 ---
-title: 字符串（str）操作
+title: 字符串（str）
 nextjs:
   metadata:
-    title: 字符串（str）操作
+    title: 字符串（str）
     description: 字符串是Python中最常用的数据类型之一，它是不可变的字符序列。Python提供了丰富的字符串操作方法。
 ---
 

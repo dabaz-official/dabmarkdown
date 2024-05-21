@@ -8,9 +8,9 @@ export const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: '核心概念',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      { title: '变量与数据类型', href: '/docs/variables-and-data-types' },
       {
         title: 'Predicting user behavior',
         href: '/docs/predicting-user-behavior',

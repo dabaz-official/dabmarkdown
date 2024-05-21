@@ -7,7 +7,7 @@ Python是一种高层次、解释型、面向对象的编程语言，以其简�
 
 {% quick-links %}
 
-{% quick-link title="安装Python" icon="installation" href="/" description="学习如何安装Python并进一步搭建Python开发环境。" /%}
+{% quick-link title="安装Python" icon="installation" href="/docs/installation" description="学习如何安装Python并进一步搭建Python开发环境。" /%}
 
 {% quick-link title="模块与包" icon="presets" href="/" description="学习模块的创建和导入、标准库和第三方库的使用。" /%}
 

@@ -8,6 +8,7 @@ require("prismjs/components/prism-python")
 require("prismjs/components/prism-bash")
 require("prismjs/components/prism-powershell")
 require("prismjs/components/prism-markdown")
+require("prismjs/components/prism-cshtml")
 
 export function Fence({
   children,
